@@ -1,6 +1,7 @@
 # Wealthberry Labs Homebrew tap
 
 ```bash
+brew trust randyellis-wealthberry/tap   # only if Homebrew asks
 brew install randyellis-wealthberry/tap/inkwell-daily
 ```
 
