@@ -1,8 +1,8 @@
 class InkwellDaily < Formula
   desc "Morning newspaper about yesterday's agent work and commits"
   homepage "https://github.com/randyellis-wealthberry/inkwell-daily"
-  url "https://github.com/randyellis-wealthberry/inkwell-daily/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "12c244feb519978ee89e9d954f1a576ff8461c057d3f82bd3fe0634e039995de"
+  url "https://github.com/randyellis-wealthberry/inkwell-daily/archive/refs/tags/v1.2.1.tar.gz"
+  sha256 "a80a87ee121916ccefbc19f6783c3614666904550e7f1bccbbed55d35b23465a"
   license "MIT"
 
   depends_on "node"
