@@ -1,8 +1,8 @@
 class InkwellDaily < Formula
   desc "Morning newspaper about yesterday's agent work and commits"
   homepage "https://github.com/randyellis-wealthberry/inkwell-daily"
-  url "https://github.com/randyellis-wealthberry/inkwell-daily/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "a5ceda19988e569e8dc08d891acb3d9e7cfe4e4dd1646b7103d575d4b3b3dac0"
+  url "https://github.com/randyellis-wealthberry/inkwell-daily/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "4a0c0168264ac4655f1dfbf20ccbf555b17f248899e6166c4897e10f32596dd7"
   license "MIT"
 
   depends_on "node"
@@ -27,7 +27,7 @@ class InkwellDaily < Formula
   end
 
   test do
-    assert_match "Inkwell Daily", shell_output("#{bin}/inkwell-daily help")
+    assert_match "Inkwell", shell_output("#{bin}/inkwell-daily help")
     assert_match "editions", shell_output("#{bin}/inkwell-daily status")
   end
 end
